@@ -10,6 +10,7 @@ public static void insertionSort(int[] arr) {
         j--;
         }
 
+
         arr[j + 1] = key;
         }
         }
