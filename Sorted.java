@@ -24,12 +24,7 @@ void selectionSort(int arr[])
             swap(arr[min_idx], arr[i]);
     }
 }
-
-public static void sort(int[] array) {
-        selectionSort(array);
-        }
-
-void insertionSort(int[] arr) {
+        void insertionSort(int[] arr) {
         int n = arr.length;
 
         for (int i = 1; i < n; i++) {
@@ -44,6 +39,11 @@ void insertionSort(int[] arr) {
         arr[j + 1] = key;
         }
         }
+
+public static void sort(int[] array) {
+        selectionSort(array);
+        }
+
 
 public static void sort(int[] array) {
         insertionSort(array);
