@@ -1,3 +1,9 @@
+public static void main(String[]args){
+        int[] arr = {5, 2, 9, 1, 3};
+        sort(arr);
+        System.out.println(Arrays.toString(arr));
+        }
+
 void insertionSort(int[] arr) {
         int n = arr.length;
 
@@ -12,4 +18,7 @@ void insertionSort(int[] arr) {
 
         arr[j + 1] = key;
         }
+        }
+public static void sort(int[] array) {
+        insertionSort(array);
         }
